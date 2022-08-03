@@ -1,0 +1,70 @@
+html {
+	background-color: limegreen;
+}
+
+.codebox {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	height: 40px;
+	width: 40px;
+	border: 1px;
+	background-color: #0000000;
+}
+
+.testy {
+	position: absolute;
+	font-size: 12px;
+	left: 10px;
+	top: 35px;
+}
+
+.name {
+	position: absolute;
+	left: 10px;
+	top: 2px;
+	font-size: 30px;
+	color: hsla(0, 0%, 100%, 0.8);
+	text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+		0 0 10px hsla(278, 100%, 50%, 0.5), 0 0 10px hsla(278, 100%, 50%, 0.5),
+		0 0 5px hsla(120, 100%, 25%, 1), 0 0 5px hsla(120, 100%, 25%, 1),
+		0 0 5px hsla(120, 100%, 25%, 1);
+}
+
+.texty {
+	color: hsla(0, 0%, 100%, 0.8);
+	text-shadow: 0 0 10px hsla(278, 100%, 50%, 0.5),
+		0 0 10px hsla(278, 100%, 50%, 0.5), 0 0 10px hsla(278, 100%, 50%, 0.5),
+		0 0 5px hsla(120, 100%, 25%, 1), 0 0 5px hsla(120, 100%, 25%, 1),
+		0 0 5px hsla(120, 100%, 25%, 1);
+}
+.version {
+	position: absolute;
+	left: 110px;
+	top: 15px;
+}
+.box {
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	border: 1px solid;
+	background-color: hsl(0, 100%, 50%);
+	box-shadow: 0 0 10px hsla(0, 100%, 50%, 0.5),
+		0 0 10px hsla(0, 100%, 50%, 0.5), 0 0 10px hsla(0, 100%, 50%, 0.5),
+		0 0 5px hsla(120, 100%, 25%, 1), 0 0 5px hsla(120, 100%, 25%, 1),
+		0 0 5px hsla(120, 100%, 25%, 1);
+}
+
+.buybox {
+	height: 20px;
+	width: 40px;
+	border-radius: 10%;
+	border: 1px solid;
+	background-color: grey;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.inline {
+	display: inline-block;
+	vertical-align: middle;
+}
