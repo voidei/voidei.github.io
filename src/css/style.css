@@ -3,7 +3,7 @@ html {
 }
 
 .scungus {
-	display: block;
+	display: inline grid;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
@@ -13,6 +13,8 @@ html {
 	font-size: 200px;
 	font-family: Arial;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a:link {
