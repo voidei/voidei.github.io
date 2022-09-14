@@ -1,68 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<title>repl.it</title>
+		<link href="./example.css" rel="stylesheet" type="text/css">
+	</head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>repl.it</title>
-    <link href="./example.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-    <div onclick="codeinput()" class="codebox"></div>
-    <div class="testy">Made by: Dart#5588</div>
-    <div class="name">Clicker!</div>
-    <div class="version">v1.0.0</div>
-    <!-- I added this bit in, the rest is not my code -->
-    <br><br><br><br>
-    <div class="return-to"><a href="../index.html">return to dawnie's site</a></div>
-    <div class="not-mine">this site isn't mine, I am using it as a template - please head
-        <a href="https://replit.com/talk/share/Clicker-Game-In-HTML/28091">here</a> to check out the original
-    </div>
-    <!-- -->
-    <center>
-        <div class="texty" style="font-size: 20px" id="var">clicks: 0</div>
-        <br>
+	<body>
 
 
+	<div onclick="codeinput()" class="codebox"></div>
+	<div class="testy">Made by: Dart#5588</div>
+	<div class="name">Clicker!</div>
+	<div class="version">v1.0.0</div>
+	<!-- I added this bit in, the rest is not my code -->
+	<br><br><br><br>
+	<div class="return-to"><a href="../index.html">return to dawnie's site</a></div>
+	<div class="not-mine">this site isn't mine, I am using it as a template - please head
+		<a href="https://replit.com/talk/share/Clicker-Game-In-HTML/28091">here</a> to check out the original
+	</div>
+	<!-- -->
+		<div class="texty" id="var">clicks: 0</div>
+		<br>
+		<button type="button" class="box" onclick="myfunction()">click me!</button>
+	<h1>Upgrades!</h1>
 
-        <button class="box" onclick="myfunction()"></button>
-    </center>
-    <h1 style="font-size: 30px">Upgrades!</h1>
+	<button type="button" class="buybox inline" onclick="buyupgrade()">Buy</button>
+	<div class="inline" id="upgrade">auto clickers: 0</div>
+	<div id="cost">cost: 10</div>
+	<br>
+	<button type="button" class="buybox inline" onclick="upgradeclick()">Buy</button>
+	<div class="inline" id="buttonupgrade">button upgrades: 0</div>
+	<div id="cost4">cost: 75</div>
+	<br>
+	<div id="hiddentest">
+		<button type="button" class="buybox inline" onclick="buyupgrade1()">-</button>
+		<div id="ultra" class="inline">ultra clickers: 0</div>
+		<div id="cost2">cost: 100</div>
+		<br>
+	</div>
+	<div id="hide2">
+		<button type="button" class="buybox inline" onclick="buyupgrade3()">-</button>
+		<div id="omega" class="inline">omega clickers: 0</div>
+		<div id="cost3">cost: 1000</div>
+		<br>
+	</div>
+	<div id="hide3">
+		<button type="button" class="buybox inline" onclick="buyupgrade4()">-</button>
+		<div id="hype" class="inline">hyper clickers: 0</div>
+		<div id="cost5">cost: 5000</div>
+		<br>
 
-    <button class="buybox inline" onclick="buyupgrade()"></button>
-    <div class="inline" id="upgrade">auto clickers: 0</div>
-    <div id="cost">cost: 10</div>
-    <br>
-    <button class="buybox inline" onclick="upgradeclick()"></button>
-    <div class="inline" id="buttonupgrade">button upgrades: 0</div>
-    <div id="cost4">cost: 75</div>
-    <br>
-    <div id="hiddentest">
-        <button class="buybox inline" onclick="buyupgrade1()"></button>
-        <div id="ultra" class="inline">ultra clickers: 0</div>
-        <div id="cost2">cost: 100</div>
-        <br>
-    </div>
-    <div id="hide2">
-        <button class="buybox inline" onclick="buyupgrade3()"></button>
-        <div id="omega" class="inline">omega clickers: 0</div>
-        <div id="cost3">cost: 1000</div>
-        <br>
-    </div>
-    <div id="hide3">
-        <button class="buybox inline" onclick="buyupgrade4()"></button>
-        <div id="hype" class="inline">hyper clickers: 0</div>
-        <div id="cost5">cost: 5000</div>
-        <br>
-
-    </div>
-    <div id="hide4">
-        <button onclick="buynuk()" class="buybox inline"></button>
-        <div class="inline" id="nukee">nuclear clickers: 0</div>
-        <div id="cost6">cost: 10000</div>
-    </div>
-    <script src="./script.js"></script>
+	</div>
+	<div id="hide4">
+		<button type="button" onclick="buynuk()" class="buybox inline">-</button>
+		<div class="inline" id="nukee">nuclear clickers: 0</div>
+		<div id="cost6">cost: 10000</div>
+	</div>
+	<script src="./script.js"></script>
 
 
 </body>
