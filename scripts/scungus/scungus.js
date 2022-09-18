@@ -14,8 +14,12 @@ function clickScungus() {
 	scunguses += 1;
 	scungusclicks += 1;
 	scungusobtainus =+ 1;
+
 	document.getElementById("scunguses").innerHTML = scunguses;
+	document.getElementById("scungusbought").innerHTML = scungusbought;
+	document.getElementById("scunguscost").innerHTML = scunguscost;
 	document.getElementById("scungusclicks").innerHTML = scungusclicks;
+
 }
 
 function buyScungus() {
@@ -24,18 +28,17 @@ function buyScungus() {
 		scunguses -= 10;
 		scunguscost == 10;
 		scunguscost = scunguscost+17;
-		document.getElementById("scunguses").innerHTML = scunguses;
-		document.getElementById("scungusbought").innerHTML = scungusbought;
-		document.getElementById("scunguscost").innerHTML = scunguscost;
-		document.getElementById("scungusclicks").innerHTML = scungusclicks;
 	}
 
 	if (scunguses >= scunguscost) {
 		scunguses -= scunguscost;
 		scungusbought += 1;
-		scunguscost = Math.pow(scunguscost,2)-3;
-		document.getElementById("scunguses").innerHTML = scunguses;
-		document.getElementById("scungusbought").innerHTML = scungusbought;
-		document.getElementById("scunguscost").innerHTML = scunguscost;
+		scunguscost = scunguscost+17;
 	}
+
+	document.getElementById("scunguses").innerHTML = scunguses;
+	document.getElementById("scungusbought").innerHTML = scungusbought;
+	document.getElementById("scunguscost").innerHTML = scunguscost;
+	document.getElementById("scungusclicks").innerHTML = scungusclicks;
+
 }
