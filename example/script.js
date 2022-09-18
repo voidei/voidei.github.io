@@ -49,7 +49,7 @@ var mtl = "you dont have enough clicks for this item: ";
 //if (e >= 10) {
     //if (hide.style.visibility === 'visible') {
      //   hide.style.visibility = 'hidden';
-  //  } 
+  //  }
 //}
 
 /*setInterval(checks, 1);
@@ -105,7 +105,7 @@ function myfunction() {
     if (e >= 1000) {
         hide2.style.visibility = 'visible';
     }
-    
+
     if (e >= 5000) {
         hide3.style.visibility = 'visible';
     }
@@ -113,9 +113,9 @@ function myfunction() {
     if (e >= 10000) {
         hide4.style.visibility = 'visible';
     }
-       
-       
-    
+
+
+
 }
 
 function updac() {
@@ -132,16 +132,16 @@ function buyupgrade() {
         document.getElementById("upgrade").innerHTML = " auto clickers: " + upg;
         document.getElementById("cost").innerHTML = "cost: " + cost;
         updac();
-        
+
         if (check1 === false) {
             if (upgbuy === true) {
                 setInterval(click1, 2000);
                 check1 = true;
-                
+
             }
         }
-            
-        
+
+
     } else {
         alert(mtl+"\"auto clicker\"!");
     }
@@ -159,7 +159,7 @@ function buyupgrade1() {
         updac();
         if (check === false) {
             if (upgbuy2 === true) {
-                
+
                 setInterval(click, 1000);
                 check = true;
             }
@@ -220,8 +220,8 @@ function buyupgrade4() {
                 check4 = true;
             }
         }
-        
-        
+
+
     } else {
         alert(mtl + "\"hyper clicker\"!");
     }
