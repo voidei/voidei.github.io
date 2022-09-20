@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0
+
+```plaintext
+M U L T I P L I C A T I V E S C U N G I
+```
+
 ## 0.0.2
 
 ```diff

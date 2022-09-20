@@ -1,4 +1,3 @@
-body,
 html {
 	background-color: black;
 	color: white;
@@ -76,4 +75,8 @@ footer {
 
 .scungusobtainus {
 	color: #fff;
+}
+
+:only-child:is(:disabled) {
+	orphans: 1;
 }

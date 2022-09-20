@@ -8,10 +8,13 @@ var scungusclicks = 0;		// number of scungus clicked
 var scungusbought = 0;		// number of scungus bought
 var scunguscost = 0;		// cost of scungus
 
+/*---------------------- multiplicative scungi ----------------------*/
+
 /*---------------------------- functions ----------------------------*/
 
 function clickScungus() {
-	scunguses += 1;
+	var scungusmultiplicative = 1+(Math.floor(scungusbought*1.5));
+	scunguses += scungusmultiplicative;
 	scungusclicks += 1;
 	scungusobtainus =+ 1;
 
