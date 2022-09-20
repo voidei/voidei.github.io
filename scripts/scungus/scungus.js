@@ -6,7 +6,7 @@ var scungusobtainus = 0;	// total number of scungus
 var scunguses = 0;			// number of scungus
 var scungusclicks = 0;		// number of scungus clicked
 var scungusbought = 0;		// number of scungus bought
-var scunguscost = 0;		// cost of scungus
+var scunguscost = 10;		// cost of scungus
 
 /*---------------------- multiplicative scungi ----------------------*/
 
