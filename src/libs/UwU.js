@@ -1,0 +1,1 @@
+var UwU;(()=>{var s={736:s=>{s.exports=new class{UwU=new Audio("https://www.myinstants.com/media/sounds/sussy-uwu.mp3");moan(){this.UwU.play(),console.log("UwU")}}}},o={},r=function r(t){var e=o[t];if(void 0!==e)return e.exports;var n=o[t]={exports:{}};return s[t](n,n.exports,r),n.exports}(736);UwU=r})();
