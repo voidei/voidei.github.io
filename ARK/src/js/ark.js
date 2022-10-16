@@ -1,0 +1,1 @@
+deinonychus = new Ark.Dinosaur({});
