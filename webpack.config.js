@@ -22,3 +22,25 @@ module.exports = {
 		library: 'UwU'
 	},
 };
+module.exports = {
+	mode: "production",
+	entry: path.resolve(__dirname, 'ark/ark.ts'),
+	module: {
+		rules: [
+			{
+				test: /\.tsx?$/,
+				use: 'ts-loader',
+				exclude: /node_modules/,
+			},
+		],
+	},
+	resolve: {
+		extensions: ['.tsx', '.ts', '.js'],
+	},
+	output: {
+		filename: 'ark.js',
+		path: path.resolve(__dirname, 'src/libs'),
+		libraryTarget: 'var',
+		library: 'ark'
+	},
+}
